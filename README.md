@@ -15,21 +15,23 @@ This repository contains the smart contract for **QuickBook Token (QBT)**, an ER
 
 ## Use Case: Loyalty Points in a Customer Reward Program
 **Overview**
+
 The QuickBookToken (QBT) can be implemented as a digital loyalty point system in a customer reward program. Businesses can reward their customers with QBT tokens for various activities, such as making purchases, providing feedback, referring new customers, or participating in promotional events.
 
 **Features**
-*Reward System:*
+
+**Reward System:**
 Customers earn QBT tokens when they make a purchase or complete specific actions, such as sharing the business's services on social media.
 The tokens can be accumulated over time and used to redeem discounts, free products, or other exclusive rewards.
 
-*Non-Divisible Token:*
+**Non-Divisible Token:**
 Since QBT has no decimal places, each token represents a whole unit, making it easier to manage and allocate as loyalty points.
 This is ideal for use cases where fractional points are not needed, simplifying the reward structure.
 
-*Ownership Control:*
+**Ownership Control:**
 The business that deploys the contract remains the owner and is the only entity capable of minting new tokens. This ensures that the supply of QBT tokens is controlled and distributed fairly.
 
-*Token Redemption:*
+**Token Redemption:**
 Customers can redeem their accumulated QBT tokens for rewards by interacting with a smart contract that verifies their token balance and deducts the appropriate amount of tokens.
 Example: Redeem 10 QBT tokens for a 10% discount on their next purchase.
 
